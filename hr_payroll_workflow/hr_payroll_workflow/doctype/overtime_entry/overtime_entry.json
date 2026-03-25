@@ -1,0 +1,13 @@
+{
+  "doctype": "DocType",
+  "name": "Overtime Entry",
+  "module": "HR Payroll Workflow",
+  "custom": 1,
+  "is_submittable": 1,
+  "fields": [
+    {"fieldname": "employee", "fieldtype": "Link", "options": "Employee", "reqd": 1},
+    {"fieldname": "overtime_date", "fieldtype": "Date", "reqd": 1},
+    {"fieldname": "approved_hours", "fieldtype": "Float", "reqd": 1},
+    {"fieldname": "hourly_rate", "fieldtype": "Currency", "reqd": 1}
+  ]
+}

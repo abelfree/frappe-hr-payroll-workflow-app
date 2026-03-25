@@ -1,0 +1,8 @@
+[project]
+name = "hr_payroll_workflow"
+version = "0.1.0"
+description = "ERPNext HR and payroll extension"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["hr_payroll_workflow"]
